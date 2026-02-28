@@ -1,3 +1,8 @@
 # Need to implement
-- void RocketChatAccount::setNameChanged(const QJsonArray &array) (=> update ruqola when name changed)
+- void RocketChatAccount::setNameChanged(const QJsonArray &array) (-> update ruqola when name changed)
+  Location: src/core/rocketchataccount.cpp:2374
+  Reference: setUserStatusChanged() for implementation pattern
+  Description: Update user model when user names change on the server
+
 - Fix apply setting in market place settings
+  Location: Check src/apps/appsmarketplace*.cpp files
